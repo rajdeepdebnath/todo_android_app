@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "quick-todo-app2",
-    "slug": "quick-todo-app2",
-    "version": "1.0.0",
+    "name": "quick-todo-app",
+    "slug": "quick-todo-app",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,16 +18,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.debnathrajdeep.quicktodoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0357c0b7-4e93-4299-b0ca-1b99c78c8ed8"
+      }
     }
   }
 }
